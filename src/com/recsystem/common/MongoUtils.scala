@@ -303,6 +303,7 @@ class MongoUtils extends Serializable{
       for(doc_id <- newslist){
         newsSaveList += MongoDBObject(("doc_id",doc_id))
       }
+
       if(cnt.count()>0){
         collection_rec_news.update(QueryBuilder.start("userid").is(userid).get(), MongoDBObject(("$push",MongoDBObject(("recnews",newsSaveList)))))
       }else{
