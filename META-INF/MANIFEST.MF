@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: /user/root/lib/casbah-commons_2.10-2.8.0.jar /user/root/li
+ b/casbah-core_2.10-2.8.0.jar /user/root/lib/casbah-query_2.10-2.8.0.j
+ ar /user/root/lib/hbase-client-1.0.0-cdh5.5.0.jar /user/root/lib/joda
+ -convert-1.2.jar /user/root/lib/joda-time-2.3.jar /user/root/lib/mong
+ o-java-driver-2.13.0.jar /user/root/lib/nscala-time_2.10-1.0.0.jar /u
+ ser/root/lib/spark-mongodb_2.10-0.11.1.jar
+Main-Class: com.recsystem.job.RecMain
+
